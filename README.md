@@ -170,7 +170,7 @@ results  = faiss_index.search(fused, top_k)
 ### 1. Set up environment
 
 ```bash
-conda activate bespin_env2
+conda activate clip-faiss-env
 pip install faiss-cpu mlflow git+https://github.com/openai/CLIP.git python-multipart
 ```
 

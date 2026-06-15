@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-PYTHON="C:/Users/ACER/anaconda3/envs/bespin_env2/python.exe"
+PYTHON="python"
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 
 cd "$ROOT"
