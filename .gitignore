@@ -1,0 +1,36 @@
+# Dataset — download from Kaggle, too large to commit (44K images + CSV)
+data/
+
+# Generated artifacts — rebuild with models/embeddings.py + build_index.py
+artifacts/
+
+# MLflow runtime database and tracking folder
+mlflow.db
+mlruns/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Evaluation output — regenerate with evaluation/evaluate.py
+evaluation/evaluation_results.json
+
+# Environment / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
